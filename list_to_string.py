@@ -17,6 +17,6 @@ def list_to_string (mylist):
     print (mylist)
     
 
-spam = ['1','2','3','4','5','6']
+spam = []
 
 list_to_string (spam)

@@ -13,7 +13,7 @@ def list_to_string(mylist):
     print ('\n')
 
 # 加入用户输入模块
-spam = ['1', '2', '3', '4', '99']
+spam = []
 
 
 list_to_string(spam)
