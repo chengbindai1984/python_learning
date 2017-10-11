@@ -3,13 +3,13 @@
 
 
 # def collatz():
-print 'Please input a number here'
+print ('Please input a number here')
 number = int(input())
 
 while True:
 
     if number == 1:
-        print '0'
+        print ('0')
         break
 
     elif number % 2 == 0:
