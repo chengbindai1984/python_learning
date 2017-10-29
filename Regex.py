@@ -1,6 +1,6 @@
 import re
 
-phoneNumRegex = re.compile(r' (\d{{3})-(\d{3})-(\d{4})')
+phoneNumRegex = re.compile(r' (\d{3})-(\d{3})-(\d{4})')
 mo = phoneNumRegex.search('My phonenumber is 415-555-4242. ')
 # 正则表达式利用group()分组输出
 print ('Phone number found: ' + mo.group())
@@ -41,4 +41,3 @@ mom3 = batRegex.search(' The Adsafadfad of Batwowowowoman')
 print (mom1)
 print (mom2.group())
 print (mom3.group())
-
