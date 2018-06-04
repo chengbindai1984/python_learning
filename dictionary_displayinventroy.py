@@ -1,4 +1,4 @@
-
+    
 def displayInventory(invenctory):
 
     item_total = 0
